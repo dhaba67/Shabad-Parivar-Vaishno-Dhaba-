@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Shabad Pariwar Vaishno Dhaba | Pure vegetarian Punjabi and Chinese food in Ludhiana</title>
+<meta name="description" content="Pure vegetarian Punjabi and Chinese food in Ludhiana: parathas, paneer, daal, naan, biriyani, noodles and soups.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Hind:wght@400;500;600&family=Noto+Sans+Gurmukhi:wght@800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F7F7F2;--ink:#1A1F3D;--mute:#555B78;--line:#C9C6B4;--red:#C62828;--onred:#fff;--tint:#FFF0B8;--leaf:#1F7A3A;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12142A;--ink:#F4F1E6;--mute:#AEB2CC;--line:#3A3F66;--red:#FF8A7A;--onred:#12142A;--tint:#2E2A10;--leaf:#4CC26B}}
+:root[data-theme="dark"]{--bg:#12142A;--ink:#F4F1E6;--mute:#AEB2CC;--line:#3A3F66;--red:#FF8A7A;--onred:#12142A;--tint:#2E2A10;--leaf:#4CC26B}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:calc(56px + env(safe-area-inset-top,0px))}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 Hind,system-ui,sans-serif}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:10}
+[hidden]{display:none!important}
+a:focus-visible,button:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:11;background:var(--bg);border-bottom:3px solid var(--ink)}
+.bar{max-width:1040px;margin:auto;padding:10px 20px;display:flex;align-items:center;gap:16px}
+.brand{display:flex;align-items:center;gap:8px;margin-right:auto;font:400 18px/1.1 "Alfa Slab One",serif;color:var(--ink);text-decoration:none}
+nav a{margin-left:14px;font-size:15px;font-weight:500;color:var(--ink);text-decoration:none}
+@media(max-width:480px){nav a:nth-child(2){display:none}}
+.veg{width:14px;height:14px;border:2px solid var(--leaf);background:#fff;display:inline-grid;place-items:center;flex:none}
+.veg::after{content:"";width:6px;height:6px;border-radius:50%;background:var(--leaf)}
+.hero{background:#F7B500;color:#1A1F3D;border-bottom:10px solid #1A1F3D}
+.hero .veg{--leaf:#1F7A3A}
+.hw{max-width:1040px;margin:auto;padding:40px 20px 48px;display:grid;gap:24px;align-items:center}
+@media(min-width:800px){.hw{grid-template-columns:1.3fr .7fr}}
+.pa{margin:0;font:800 clamp(26px,6.5vw,40px)/1.2 "Noto Sans Gurmukhi",sans-serif;color:#C62828;text-shadow:2px 2px 0 #fff}
+h1{margin:6px 0 16px;font:400 clamp(32px,9.2vw,64px)/1.05 "Alfa Slab One",serif;text-shadow:3px 3px 0 #fff}
+.lead{max-width:30ch;margin:0 0 14px;font-size:20px;line-height:1.4;font-weight:500}
+.vl{display:flex;align-items:center;gap:8px;margin:0 0 22px;font-weight:600}
+.hw svg{width:min(280px,72%);margin:auto}
+.btn{display:inline-block;margin:0 10px 10px 0;padding:12px 22px;border:3px solid #1A1F3D;border-radius:6px;background:#1A1F3D;color:#F7B500;font:600 17px Hind,sans-serif;text-decoration:none;cursor:pointer}
+.btn.o{background:transparent;color:#1A1F3D}
+.btn.r{background:var(--red);border-color:var(--red);color:var(--onred)}
+.btn.r.o{background:transparent;color:var(--red)}
+section{max-width:1040px;margin:auto;padding:56px 20px 8px}
+h2{margin:0 0 8px;font:400 clamp(28px,6.5vw,40px)/1.1 "Alfa Slab One",serif}
+.sub{margin:0 0 22px;color:var(--mute)}
+#tabs{display:flex;gap:8px;overflow-x:auto;padding-bottom:8px;margin-bottom:10px}
+#tabs button{flex:none;padding:8px 16px;border:2px solid var(--ink);border-radius:6px;background:transparent;color:var(--ink);font:600 15px Hind,sans-serif;cursor:pointer}
+#tabs button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+#items{display:grid;column-gap:40px}
+@media(min-width:720px){#items{grid-template-columns:1fr 1fr}}
+.it{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;padding:12px 0;border-bottom:2px dashed var(--line)}
+.it b{font-size:18px;font-weight:600}
+.it span{flex:none;text-align:right;font-size:18px;font-weight:600;line-height:1.3}
+.it small{display:block;color:var(--mute);font-size:13px;font-weight:400;line-height:1.2}
+.gh{grid-column:1/-1;margin:24px 0 2px;padding-bottom:6px;border-bottom:4px solid var(--ink);font:400 20px/1.2 "Alfa Slab One",serif}
+.gh:first-child{margin-top:0}
+.txt{max-width:56ch;margin:0 0 20px}
+.pts{max-width:56ch;margin:0;padding:0;list-style:none}
+.pts li{padding:12px 0;border-top:2px dashed var(--line)}
+.vis{display:grid;gap:20px;margin-bottom:24px}
+@media(min-width:720px){.vis{grid-template-columns:repeat(3,1fr)}}
+.vis div{padding-top:10px;border-top:4px solid var(--ink)}
+.vis h3{margin:0 0 2px;font-size:18px}
+.vis p{margin:0}
+.vis a{color:var(--ink);font-size:18px;font-weight:600}
+.ph{color:var(--mute);font-style:italic}
+footer{margin-top:56px;padding:24px 20px;background:#1A1F3D;color:#F7B500;font-size:15px}
+footer span{font:800 20px "Noto Sans Gurmukhi",sans-serif}
+</style>
+</head>
+<body id="top">
+<header><div class="bar">
+<a class="brand" href="#top"><i class="veg"></i>Shabad Pariwar</a>
+<nav><a href="#menu">Menu</a><a href="#about">About</a><a href="#visit">Visit</a></nav>
+</div></header>
+
+<div class="hero"><div class="hw">
+<div>
+<p class="pa" lang="pa">ਸ਼ਬਦ ਪਰਿਵਾਰ</p>
+<h1>Shabad Pariwar<br>Vaishno Dhaba</h1>
+<p class="lead">Pure vegetarian Punjabi and Chinese food, cooked fresh and served like family.</p>
+<p class="vl"><i class="veg"></i>100% pure vegetarian</p>
+<a class="btn" href="#menu">See the menu</a><a class="btn o call">Call to order</a>
+</div>
+<svg viewBox="0 0 300 300" role="img" aria-label="A steel thali with dal, paneer, rice and chutney">
+<circle cx="150" cy="150" r="146" fill="#1A1F3D"/><circle cx="150" cy="150" r="138" fill="#dfe3ea"/><circle cx="150" cy="150" r="118" fill="none" stroke="#aab1be" stroke-width="3"/>
+<g stroke="#9aa2b1" stroke-width="4"><circle cx="104" cy="104" r="40" fill="#6b3410"/><circle cx="196" cy="104" r="40" fill="#d9481c"/><circle cx="104" cy="196" r="40" fill="#f7efd8"/><circle cx="196" cy="196" r="40" fill="#e0a22e"/></g>
+<path d="M82 104q22-16 44 0" stroke="#f3d9b8" stroke-width="5" fill="none" stroke-linecap="round"/>
+<g fill="#fff3d2"><rect x="176" y="90" width="15" height="15" rx="3"/><rect x="198" y="106" width="15" height="15" rx="3"/><rect x="184" y="118" width="13" height="13" rx="3"/></g>
+<circle cx="150" cy="150" r="15" fill="#2f8f3b" stroke="#9aa2b1" stroke-width="4"/>
+</svg>
+</div></div>
+
+<section id="menu">
+<h2>Our menu</h2>
+<p class="sub">Everything here is pure vegetarian. Prices are in rupees, with half plates listed where available.</p>
+<div id="tabs" role="group" aria-label="Menu categories"></div>
+<div id="items"></div>
+
+</section>
+
+<section id="about">
+<h2>A kitchen that feels like family</h2>
+<p class="txt">Shabad Pariwar Vaishno Dhaba serves honest vegetarian food, from hot parathas and creamy paneer to daal, naan and Chinese favourites. Come hungry and leave looked after.</p>
+<ul class="pts">
+<li><b>Pure vegetarian.</b> Every dish on the menu is vegetarian.</li>
+<li><b>Hot and fresh.</b> Rotis and parathas come straight off the tandoor and tawa.</li>
+<li><b>Family first.</b> Bring everyone. Every guest is treated like family.</li>
+</ul>
+</section>
+
+<section id="visit">
+<h2>Visit us</h2>
+<div class="vis">
+<div><h3>Address</h3><p id="addr"></p></div>
+<div><h3>Phone</h3><p id="ph"></p></div>
+<div><h3>Opening hours</h3><p id="hrs"></p></div>
+</div>
+<a class="btn r call">Call to order</a><a class="btn r o" id="dir" target="_blank" rel="noopener">Get directions</a>
+</section>
+
+<footer><span lang="pa">ਸ਼ਬਦ ਪਰਿਵਾਰ ਵੈਸ਼ਨੋ ਢਾਬਾ</span><br>© 2026 Shabad Pariwar Vaishno Dhaba. Pure vegetarian.</footer>
+
+<script>
+const INFO={phones:["78890 77736","98761 61708"],address:"VQHP+MR3, Rajguru Nagar Rd, Block-J, Block I, Bhai Randhir Singh Nagar, Ludhiana, Punjab",hours:"Every day, 7 AM to 11 PM",map:"https://maps.app.goo.gl/jc25tV2A7Xf2pSfi6"};
+const H=(n,f,h)=>[n,f,"half ₹"+h],P=(n,p)=>[n,p,"per piece"];
+const MENU={
+"Breakfast":[["",[["Paneer Parantha",80],["Gobhi Parantha",60],["Aaloo Parantha",60],["Mix Parantha",70],["Chhole Bhature",70],["Naan Chhole",70],["Tea",30],["Coffee",50],["Cold Drink",20],["Water Bottle",20]]]],
+"Main course":[["Main Course",[H("Paneer Butter Masala",300,180),H("Kadai Paneer",300,180),H("Shahi Paneer",300,180),["Malai Kofta",300],["Cheese Chilly",340],["Cheese Tomato",340],["Palak Paneer",300],["Palak Kofta",300],["Mix Veg",280]]],["Daal",[["Daal Makhni",240],["Daal Tadka",200],["Yellow Daal",180]]]],
+"Roti and rice":[["Chapati",[P("Cheese Naan",70),P("Onion Naan",70),P("Butter Naan",70),P("Missi Roti",30),P("Laccha Parantha",50),P("Simple Chapati",15)]],["Rice",[["Veg Biriyani",150],["Mattar Pulao",100],["Jeera Rice",80]]],["Dahi and raita",[["Boondi Raita",100],["Dahi Bhalla",180],["Papad",40],["Salad Papad",70],["Green Salad",60],["Mix Raita",120]]]],
+"Chinese and soups":[["Chinese",[H("Veg Noodles",250,150),H("Hakka Noodles",250,150),H("Veg Singapuri Noodles",250,150),H("Chilly Garlic Noodles",250,150),H("Veg Manchurian Dry",280,160),H("Veg Manchurian Gravy",280,160),["Chilly Paneer",280],["Honey Chilly Potato",230],["Fried Rice With Gravy",200]]],["Soups",[["Tomato Soup",80],["Manchow Soup",80],["Sweet Corn Soup",90]]]],
+"Snacks":[["",[["Paneer Tikka",340],["Masala Chaap",240],["Achari Chaap",240],["Afgani Chaap",240]]]]
+};
+const $=s=>document.querySelector(s),tabs=$("#tabs"),box=$("#items");
+function show(k){
+ [...tabs.children].forEach(b=>b.setAttribute("aria-pressed",b.textContent===k));
+ const g=MENU[k];
+ box.innerHTML=g.map(([t,items])=>(g.length>1?`<h3 class="gh">${t}</h3>`:"")+items.map(([n,p,x])=>`<div class="it"><b>${n}</b><span>₹${p}${x?`<small>${x}</small>`:""}</span></div>`).join("")).join("");
+}
+Object.keys(MENU).forEach(k=>{const b=document.createElement("button");b.textContent=k;b.onclick=()=>show(k);tabs.append(b)});
+show(Object.keys(MENU)[0]);
+const tel=n=>"tel:+91"+n.replace(/\s/g,"");
+document.querySelectorAll(".call").forEach(a=>a.href=tel(INFO.phones[0]));
+$("#ph").innerHTML=INFO.phones.map(n=>`<a href="${tel(n)}">${n}</a>`).join("<br>");
+$("#addr").innerHTML=`<a href="${INFO.map}" target="_blank" rel="noopener">${INFO.address||"Open our location in Google Maps"}</a>`;
+{const e=$("#hrs");e.textContent=INFO.hours||"Add your opening hours";if(!INFO.hours)e.className="ph"}
+$("#dir").href=INFO.map;
+</script>
+</body>
+</html>
